@@ -112,7 +112,7 @@ if(mysqli_stmt_execute($stmt)){
         <?php foreach($posts as $post): ?>
           <div class="post">
             <div class="image">
-              <img src="img/images-1.png" alt="person icon" width="40px" height="40px">
+              <img src="images/images-1.png" alt="person icon" width="40px" height="40px">
             </div>
             <div class="content">
               <p class="text-secondary">@<?php echo  $post['post_author'] ?></p>
